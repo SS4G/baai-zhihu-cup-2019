@@ -45,15 +45,15 @@
 
 **1. preprocess**: 数据预处理，包括解析列表，重编码id，pickle保存。
 
-&ensp;&ensp;运行时间 1388s，  内存占用峰值 125G * 30%
+&ensp;&ensp;运行时间 1388s，内存占用峰值 125G * 30%
 
 **2. gen_feat**: 构造特征，特征说明如上述。
 
-&ensp;&ensp;运行时间（32核）1764s，  内存占用峰值 125G * 20%
+&ensp;&ensp;运行时间（32核）1764s，内存占用峰值 125G * 20%
 
 &ensp;&ensp;*(注：这里为了加快运算，所以用了多进程 ，windows上 multiprocessing + jupyter可能有bug，建议linux上跑。)*
 
 **3. baseline**: 模型训练预测。
 
-&ensp;&ensp;运行时间 1388s，  内存占用峰值 125G * 12%
+&ensp;&ensp;运行时间 1388s（GPU RTX2080Ti），内存占用峰值 125G * 12%
 

@@ -55,5 +55,5 @@
 
 **3. baseline**: 模型训练预测。
 
-&ensp;&ensp;运行时间 2848s（GPU RTX2080Ti），内存占用峰值 125G * 12%
+&ensp;&ensp;运行时间（GPU RTX2080Ti）2848s，内存占用峰值 125G * 12%
 
